@@ -1,6 +1,6 @@
-title: "Linear Algebra"
+title: "线性代数"
 description: |
-    # Linear Algebra Recap
+    # 线性代数测试
 
 rules:
     access:
@@ -17,7 +17,7 @@ pages:
     id: intro
     content: |
 
-        # A little distraction to start
+        # 开始测试
 
         Yadda yadda.
 
@@ -103,6 +103,6 @@ pages:
 
 completion_text: |
 
-    # End of Linear Algebra Recap
+    # 结束测试
 
     Now you're ready to take the [quiz](flow:quiz-test).

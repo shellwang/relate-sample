@@ -1,7 +1,7 @@
-title: "RELATE Test Exam"
+title: "考试样例"
 description: |
 
-    # RELATE Test Exam
+    # 考试样例
 
 rules:
     start:
@@ -34,14 +34,14 @@ rules:
 
     -
         if_in_facility: test_center
-        message: "You exam will end soon."
+        message: "考试即将结束."
         if_session_duration_shorter_than_minutes: 1
         permissions: [view, submit_answer, end_session, see_session_time, lock_down_as_exam_session]
 
     -
         if_in_facility: test_center
         if_in_progress: True
-        message: "You exam has ended. You may no longer make changes. Please click 'Submit assignment' to finish."
+        message: "考试即将结束，您将不能再做任何变更。清点击 'Submit assignment' 以结束。"
         permissions: [view, end_session, see_correctness, see_session_time, lock_down_as_exam_session]
 
     -
@@ -66,9 +66,9 @@ pages:
     id: welcome
     content: |
 
-        # Welcome to the test exam for RELATE!
+        # 欢迎来到考试中心!
 
-        Don't be scared.
+        别害怕，放心答题。
 
 -
     type: HumanGradedTextQuestion
@@ -77,14 +77,14 @@ pages:
     widget: textarea
     prompt: |
 
-        # Mark Twain
+        # 马克吐温
 
-        Discuss the literary work of Mark Twain.
+        讨论马克吐温的文学作品。
 
     rubric: |
 
-        Has something interesting to say.
+        发表一些文字描述。
 
 completion_text: |
 
-    You have successfully completed the test exam!
+    您已经完成了整个考试!

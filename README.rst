@@ -1,6 +1,6 @@
 relate-sample
 =============
 
-This is sample content for `relate
-<https://github.com/inducer/relate>`_. See there for more information.
+培训教育网站
+<https://fip.ai>`_. See there for more information.
 

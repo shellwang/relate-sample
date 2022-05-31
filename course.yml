@@ -14,7 +14,10 @@ chunks:
 
     content: |
 
-        # Hi there!
+        # 大家好，这是一门测试课程!
+       <img src="repo:images/classroom.jpeg">
+
+        (![creative commons](repo:images/cc.png)/by [kevin dooley](https://secure.flickr.com/photos/pagedooley/13905987989/) on Flickr)
 
         Check out the [linear algebra recap](flow:001-linalg-recap). Do it now. Do it.
 
@@ -31,10 +34,7 @@ chunks:
         Remember, this image shows the model that RELATE is trying to put out
         of business:
 
-        <img src="repo:images/classroom.jpeg">
-
-        (![creative commons](repo:images/cc.png)/by [kevin dooley](https://secure.flickr.com/photos/pagedooley/13905987989/) on Flickr)
-
+ 
         <div class="well" markdown="1">
           *RELATE* <i class="fa fa-heart"></i>
           <a href="https://djangoproject.com/"><img src="repo:images/django-logo.png"></a>.
@@ -50,7 +50,7 @@ chunks:
     rules:
     -
         if_in_facility: test_center
-        if_after: 2015-06-01
+        if_after: 2025-06-01
         weight: 200
 
     -
